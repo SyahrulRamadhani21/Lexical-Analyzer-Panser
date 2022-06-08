@@ -15,7 +15,7 @@ df = pd.DataFrame(
 st.table(df)
 
 
-sentence = st.text_input("Masukkan Kata: ")
+sentence = st.text_input("Masukkan Kata: ", placeholder='Masukkan kata')
 cari=st.button('Cari')
 if cari:
     ######## LexicalAnalyzer.py

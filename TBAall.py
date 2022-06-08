@@ -207,13 +207,13 @@ if cari:
 
     #parse table definition
     parse_table={}
-    parse_table[('S','ammak')] = ['NN','VB','NN']
-    parse_table[('S','mangge')] = ['NN','VB','NN']
-    parse_table[('S','andi')] = ['NN','VB','NN']
-    parse_table[('S','bayao')] = ['NN','VB','NN']
-    parse_table[('S','es')] = ['NN','VB','NN']
-    parse_table[('S','sapatu')] = ['NN','VB','NN']
-    parse_table[('S','jekne')] = ['NN','VB','NN']
+    parse_table[('S','ammak')] = ['O','P','O']
+    parse_table[('S','mangge')] = ['O','P','O']
+    parse_table[('S','andi')] = ['O','P','O']
+    parse_table[('S','bayao')] = ['O','P','O']
+    parse_table[('S','es')] = ['O','P','O']
+    parse_table[('S','sapatu')] = ['O','P','O']
+    parse_table[('S','jekne')] = ['O','P','O']
     parse_table[('S','anganre')] = ['error']
     parse_table[('S','asare')] = ['error']
     parse_table[('S','angnginung')] = ['error']
